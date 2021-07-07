@@ -10,9 +10,10 @@ public class Car extends Vehicle {
 		System.out.println("Storage!");
 	}
 
+	@Override
 	public void cost() {
 		if (getColour() == "Black") {
-			System.out.println("Total cost is:" + cost + 1000);
+			System.out.println("Total cost is:" + (cost + 1000));
 		} else {
 			System.out.println("Total cost is: " + cost);
 		}

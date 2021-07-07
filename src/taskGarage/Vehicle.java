@@ -54,11 +54,15 @@ public abstract class Vehicle {
 		this.cost = cost;
 	}
 
+	public void cost() {
+
+	}
+
 	public void print1() {
 
 		System.out.println("License Plate: " + getLicensePlate());
 		System.out.println("Number of Wheels: " + getNoOfWheels());
 		System.out.println("Colour: " + getColour());
-		System.out.print("Cost: " + getCost());
+		cost();
 	}
 }
